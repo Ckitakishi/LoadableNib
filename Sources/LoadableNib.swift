@@ -8,8 +8,6 @@
  * [Under the MIT License.]
  */
 
-#if os(ma)
-#else
 import UIKit
 
 protocol Loadable: class {
