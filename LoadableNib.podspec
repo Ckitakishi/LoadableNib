@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LoadableNib"
-  s.version      = "1.0.0"
+  s.version      = "0.0.1"
   s.summary      = "`LoadableNib` helps you load views from xib file in a type-safe way."
 
   s.description  = <<-DESC
