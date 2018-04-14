@@ -10,15 +10,15 @@
 
 import UIKit
 
-protocol Loadable: class {
+public protocol Loadable: class {
     static var nibName: String { get }
 }
 
-extension Loadable {
+public extension Loadable {
     static var nibName: String { return String(describing: Self.self) }
 }
 
-extension UIView {
+public extension UIView {
     
     func instantiateFromNib<T: UIView>(_:T.Type) -> T where T: Loadable {
         if let nib = UINib(nibName: T.nibName, bundle: nil).instantiate(withOwner: nil, options: nil).first as? T {
