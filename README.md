@@ -27,7 +27,7 @@ Supports from Swift 4.
 Add the following line to your `Podfile`:
 
 ```
-pod 'LoadableNib', '~> 1.0'
+pod 'LoadableNib', '~> 1.0.1'
 ```
 
 Run `pod install`.
@@ -37,7 +37,7 @@ Run `pod install`.
 Add the following line to your `Cartfile`:
 
 ```ruby
-github "Ckitakishi/LoadableNib" ~> 1.0
+github "Ckitakishi/LoadableNib" ~> 1.0.1
 ```
 
 1. Run `carthage update`.
